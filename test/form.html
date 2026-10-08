@@ -1,0 +1,23 @@
+            <form style="max-width:400px; font-family:Arial;">
+                  <label>Name:</label>
+                  <input type="text" name ="name" required style="width:70%;padding:10px;"><br>
+
+                   <label>Description:</label>
+                   <textarea name="description" rows="10" style=width:100%; padding:50px;"></textarea><br><br>
+
+                <label>How did you know about us?</label><br>
+               <select name ="source" style="width: 100%; padding:8px;">
+                  
+                    <option value="friend">Friend</option> 
+                  <option value="radio">Radio</option>
+                  <option value="TV">TV</option>
+                </select><br><br>
+                Do you stay in Kampala?
+                 <br></br><input type="radio" value="yes name="response">YES
+                <input type="radio" value="no" name="response">NO
+
+                    <div style="display:flex; gap:10px;">
+                       <button type="submit" style="flex:1; padding:10px; background:black; color:white; border:none; cursor:pointer;">Submit</button>
+                     <button type="button" onclick="window.location.href='index.html' " style="flex:1; padding:10px; background:#ccc; border:none;                     cursor:pointer;">Exit</button>
+                 </div>
+        </form>

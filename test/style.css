@@ -1,0 +1,36 @@
+body {
+    background: color #fff8f0;
+color:#333333; 
+font-family:Arial, Helvetica, sans-serif
+margin: 0;
+padding: 0;
+}
+logo{
+     width:900px;
+     height: 300px;
+     object-fit:contain;
+     display:block;
+     margin:20px auto
+}
+h1{
+    color:#8b4513;
+    text-align:center;
+    font-size:36px;
+}
+h2{
+    color:#a0522d;
+}
+h3{
+    color:#8b4513;
+}
+button:hover {
+    background-color: #c65d0e;
+}
+
+footer {
+    background-color: #5c2e0b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
